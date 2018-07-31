@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>WEB DEVELOPMENT</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<style>
+  		body{
+  			font: 20px "Montserrat" , sans-serif;
+  			color: #f5f6f7;
+  			line-height: 1.8;
+  		}
+  		h1{
+  			font-size: 40px;
+  			font-weight: bold;
+  		}
+  		h3{
+  			font-stretch:36px;
+  		}
+  		p{
+  			text-align: left;
+  		}
+  		.bg-1{
+  			background-color: black;
+  			color: white;
+  		}
+  		.bg-2{
+  			background-color: #474e5d;
+  			color: white;
+  		}
+  		.bg-3{
+  			background-color: white;
+  			color:#555555;
+  		}
+  		.bg-4{
+  			background-color:#1abc9c;
+  			color:white;
+  		}
+  		.bg-5{
+			background-color:red;
+			color:gold;
+  		}
+  		.bg-6{
+			background-color: #A0522D;
+			color:white;
+  		}
+  		.container-fluid{
+  			padding-top: 50px;
+  			padding-bottom: 50px;
+  		}
+  		.footer{
+  			width:100%;
+  		}
+  		.navbar{
+  			border: 0;
+  			margin: 0;
+  			font-size: 20px;
+  			opacity: 0.85;
+  		}
+  		.carousel-inner img{
+  			width: 100%;
+   			margin: auto;
+   			height: 50%;
+  		}
+  		#navbar{
+  			padding-top: 5px;
+  			padding-bottom: 5px;
+  		}
+  		.navbar-header a{
+  			width: 10px;
+  		}
+  		#link{
+  			padding-top: 20px;
+  		}
+  		a{
+  			color:red;
+  		}
+  		.bg-3 a{
+  			color: black;
+  		}
+  		.bg-3 a:hover{
+  			color: blue;
+  		}
+  		.bg-5 a{
+  			color: yellow;
+  			text-decoration: none;
+  		}
+		a:hover{
+			color: white;
+			text-decoration: none;
+		}
+		/*---------animations-----------*/
+  		h1{
+  			transition: font-size 0.5s linear;
+  		}
+  		h1:hover{
+			font-size: 44px;
+			font-weight: bold;
+		}
+		.big{
+			transition: width 0.8s;
+			margin: 10px;
+		}
+		.big:hover{
+			width: 55%;
+		}
+   	</style>
+</head>
+<body id="start">
+	<!--navbar-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid" id="navbar">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	        <span class="icon-bar"></span> 
+	      </button>
+	     <a href="#start"><img src="logo2.png" alt="logo"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	      	<li><a href="#chronology">Chronology</a></li>
+	        <li><a href="#programming">Programming Languages</a></li>
+	        <li><a href="#responsive">Mobile Responsive</a></li>
+	        <li><a href="#security">Security Considerations</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container-fluid text-center bg-1">
+		<br>
+		<h1>WEB DEVELOPMENT</h1>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <img src="1.png" alt="1 image" >
+		    </div>
+
+		    <div class="item">
+		      <img src="2.jpg" alt="2 image" >
+		    </div>
+
+		    <div class="item">
+		      <img src="3.jpg" alt="3 image" >
+		    </div>
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+	<div class="container-fluid text-center bg-2">
+		<h1>INTRODUCTION</h1>
+
+		<h3>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).</h3>
+
+		<p> Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding. </p>
+	</div>
+
+	<div class="container-fluid text-center bg-4">
+		<h1>AS AN INDUSTRY</h1>
+
+		<p>For larger organizations and businesses, web development teams can consist of hundreds of people (web developers) and follow standard methods like Agile methodologies while developing websites. Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of web developer specialization: front-end developer, back-end developer, and full-stack developer. Front-end developers deal with the layout and visuals of a website, while back-end developers deal with the functionality of a website. Back-end developers will program in the functions of a website that will collect data.</p>
+	</div>
+
+	<div class="container-fluid bg-5 text-center" id="chronology">
+		<h1>CHRONOLOGY</h1>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Webdevelopmenttimeline.png" alt="chronology" class="img-responsive">
+			</div>
+			<div class="col-sm-6">
+				<a href="#demo1" data-toggle="collapse"><h3>1989-1999</h3></a>
+				<div id="demo1" class="collapse">
+				<p>In '89 The <strong>World Wide Web</strong> begins as a CERN (European Organization for Nuclear Research) project called ENQUIRE, initiated by British scientist Tim Berners-Lee. Other names considered for the project include “The Information Mesh” and “The Mine of Information.<br />In '90 Tim Berners-Lee develops the first Web browser <em>WorldWideWeb</em>.<br />In '93 Marc Andreessen proposes the <strong>IMG HTML tag</strong> to allow the display of images on the Web.<br />In '94 One of the first known Web purchases takes place: a pepperoni pizza with mushrooms and extra cheese from Pizza Hut.<br /><strong>Yahoo!</strong> is created by Stanford University graduate students Jerry Yang and David Filo. They originally named the site “Jerry and David’s Guide to the World Wide Web.”<br />In '95 <strong>Amazon.com</strong> opens for business, billing itself as the “Earth’s Biggest Bookstore.”<br />Microsoft releases Windows 95 and the first version of Internet Explorer.<br />In '96 HoTMaiL launches as one of the world’s first Webmail services, its name a reference to the HTML internet language used to build webpages.<br />In '97 Netflix launches as a company that sends DVDs to homes via mail.Google.com registers as a domain.</p>	
+				</div>
+				<br />
+				<a href="#demo2" data-toggle="collapse"><h3>2000-2010</h3></a>
+				<div id="demo2" class="collapse">
+				<p>In 2001 Jimmy Wales launches <em>Wikipedia</em>. Users write over 20,000 encyclopedia entries in the first year.<br />In 2002 Social networking site Friendster.com launches, but is quickly overtaken by Facebook.<br />Microsoft launches Xbox Live, its online multiplayer gaming service.<br />In 2003 Apple launches the iTunes Music Store with 200,000 songs at 99¢ each. The store sells one million songs in its first week.<br/>Skype, a voice-over-IP calling and instant messaging service, launches and quickly becomes a verb, as in “Skype me.”<br />Professional networking site LinkedIn launches.MySpace.com is founded and quickly adopted by musicians seeking to share music and build their fan bases.<br />In 2004 Harvard student Mark Zuckerberg launches thefacebook.com.Mozilla releases Firefox 1.0.Massively multiplayer online role-playing game(MMORPG) World of Warcraft launches.<br />In 2005 YouTube is founded on Valentine’s Day. The first video, an explanation of what’s cool about elephants, is uploaded by co-founder Jawed Karim on April 23. Google acquires the company a year later.<br />In 2006 Twitter launches. Founder Jack Dorsey sends the first tweet: “just setting up my twttr”<br />In 2008 Google releases the Chrome Web browser.<br />HTML5 is introduced.<br />Apple launches its App Store with 552 applications.<br />In 2010 Social photo-sharing sites Pinterest and Instagram launch.<br />Wikileaks collaborates with major media organizations to release U.S. diplomatic cables.Ex-Facebook employees launch user-based question and answer site Quora.</p>	
+				</div>
+				<br />
+				<a href="#demo3" data-toggle="collapse"><h3>2011 and beyond</h3></a>
+				<div id="demo3" class="collapse">
+				<p>In 2011 <strong>LinkedIn</strong> reaches 100 million users and debuts on NYSE.<br/>Microsoft buys Skype for $8.5 billion.<br/>Google+ launches.<br />In 2013 Apple says app store downloads top <strong>40 billion</strong>, with 20 billion in 2012 alone.<br />In 2014 Facebook buys messaging app Whatsapp for <strong>$19 billion</strong>.
+				</p>
+				</div>
+				<div id=link>
+					<a href="http://www.pewinternet.org/2014/03/11/world-wide-web-timeline/" ><h3>For more info...</h3></a>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<div class="container-fluid bg-3 text-center" id="programming">
+		<h1>PROGRAMMING LANGUAGES</h1>
+		<div class="row">
+			<div class="col-sm-6">
+				<h2> </h2>
+				<img src="HTML5.png" alt="html5 logo" width="50%" class="big" />
+			</div>
+			<div class="col-sm-6">
+				<h2> </h2>
+				<img src="CSS3.png" alt="css3 logo" width="50%" class="big"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h2> </h2>
+				<img src="JAVASCRIPT.png" alt="javascript logo" width="50%" class="big"/>
+			</div>
+			<div class="col-sm-6">
+				<h2> </h2>
+				<img src="PYTHON.jpeg" alt="python logo" width="50%" class="big" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h2> </h2>
+				<img src="PHP.png" alt="php logo" width="50%" class="big"/>
+			</div>
+			<div class="col-sm-6">
+				<h2> </h2>
+				<img src="RUBY.jpeg" alt="ruby logo" width="50%" class="big"/>
+			</div>
+		</div>
+		<h3>For more to learn about programming click <a href="https://www.quora.com/What-programming-languages-should-I-learn-for-web-development-My-goal-is-to-build-a-text-based-game-online-I-have-never-coded-before">here</a></h3>
+	</div>
+
+	<div class="container-fluid bg-6 text-center" id="responsive">
+		<h1>MOBILE RESPONSIVE</h1>
+		<p>When a website is responsive, the layout and/or content responds or adapts based on the size of screen they are presented on.A responsive website automatically changes to fit the device you’re reading it on.Typically there have been four general screen sizes that responsive design has been aimed at: the widescreen desktop monitor, the smaller desktop (or laptop), the tablet and the mobile phone.<br />In short, you (publisher, developer, and designer) should care because you want the visitors to your website to have the best experience possible, without forcing them to adapt themselves.There are essentially two ways you can give your audience a good experience utilizing responsive design:</p>
+
+		<h3>The first is optimizing the layout of the content.</h3>
+
+		<P>If a user is browsing from a mobile phone, they generally don’t have a lot of screen real estate to work with. Phones today will typically zoom out automatically, so that the entire website can be seen onscreen. This can be good, as it gives the reader access to the entire site, but it can also be frustrating when trying to find information that is located in a tiny part of the upper right of the screen. If you could move some things around, make some things bigger and not have as many columns you’ll give your mobile reader a much better experience.</P>
+
+		<h3>The second is to adapt the content that is shown.</h3>
+
+		<p>If you own a restaurant and a potential customer is browsing your site from a mobile phone, chances are they aren’t that concerned with how pretty your site is — your foodie blog with the awesome slideshow of delectable dishes scrolling from side to side isn’t very useful in that situation. They want to know what your hours are, where you’re located, how to make reservations, and want a look at the menu.Your potential customer browsing from a desktop computer probably isn’t looking to eat right now, and isn’t in a hurry to see where you’re located and what your phone number is. Most likely he’s looking to see if you offer a good atmosphere and what types food are available.These are obviously generalizations but you can see the benefits of having differing content presented to people in different screen viewing circumstances.Mobile responsive design takes care of this all “on the fly”, and without multiple versions of your site to maintain.</p>
+	</div>
+
+	<div class="container-fluid bg-2 text-center" id="security">
+		<h1>SECURITY CONSIDERATIONS</h1>
+		<p>Web application security is a branch of Information Security that deals specifically with security of websites, web applications and web services. At a high level, Web application security draws on the principles of application security but applies them specifically to Internet and Web systems.For more you can visit <a href="https://en.wikipedia.org/wiki/Web_application_security">here</a></p>
+	</div>
+
+	<footer class="container-fluid bg-1 text-center">
+		<h3>CONTACT</h3>
+		<p style="text-align:center;">-MADE BY : Vivek Kumar Verma<br /></p>
+	</footer>
+</body>
+</html>
